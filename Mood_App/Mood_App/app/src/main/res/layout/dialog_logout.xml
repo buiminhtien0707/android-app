@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="12dp"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:paddingVertical="8dp">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_bold_700"
+        android:gravity="center"
+        android:paddingHorizontal="16dp"
+        android:text="Thoát?"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtYes"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_gravity="clip_horizontal"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/bg_btn_color_app"
+            android:fontFamily="@font/roboto_medium_500"
+            android:gravity="center"
+            android:text="Thoát"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtNo"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_gravity="clip_horizontal"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/bg_btn_cancel"
+            android:fontFamily="@font/roboto_medium_500"
+            android:gravity="center"
+            android:text="Hủy"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

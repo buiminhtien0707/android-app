@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "766858882117",
+    "firebase_url": "https://app-khach-41fa3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "app-khach-41fa3",
+    "storage_bucket": "app-khach-41fa3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766858882117:android:44e26da177fd03d70c472c",
+        "android_client_info": {
+          "package_name": "com.app.mission.mood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD5yln_3nx3fMxxjUN7lGdpjUoirGoqPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
